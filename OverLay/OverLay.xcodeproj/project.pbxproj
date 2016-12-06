@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44CECD711DEEEAF800329BAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CECD701DEEEAF800329BAC /* AppDelegate.swift */; };
+		44CECD761DEEEAF900329BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CECD741DEEEAF900329BAC /* Main.storyboard */; };
+		44CECD781DEEEAFA00329BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CECD771DEEEAFA00329BAC /* Assets.xcassets */; };
+		44CECD7B1DEEEAFA00329BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CECD791DEEEAFA00329BAC /* LaunchScreen.storyboard */; };
+		44CECD861DEEEAFD00329BAC /* OverLayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CECD851DEEEAFD00329BAC /* OverLayTests.swift */; };
+		44CECD911DEEECFB00329BAC /* OLEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CECD901DEEECFB00329BAC /* OLEditorViewController.swift */; };
+		44CECD931DEEFA3A00329BAC /* OverLay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CECD921DEEFA3A00329BAC /* OverLay.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44CECD821DEEEAFC00329BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44CECD651DEEEAF600329BAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44CECD6C1DEEEAF600329BAC;
+			remoteInfo = OverLay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44CECD6D1DEEEAF600329BAC /* OverLay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OverLay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CECD701DEEEAF800329BAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44CECD751DEEEAF900329BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44CECD771DEEEAFA00329BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44CECD7A1DEEEAFA00329BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44CECD7C1DEEEAFA00329BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CECD811DEEEAFC00329BAC /* OverLayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OverLayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44CECD851DEEEAFD00329BAC /* OverLayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLayTests.swift; sourceTree = "<group>"; };
+		44CECD871DEEEAFD00329BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CECD901DEEECFB00329BAC /* OLEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLEditorViewController.swift; sourceTree = "<group>"; };
+		44CECD921DEEFA3A00329BAC /* OverLay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverLay.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44CECD6A1DEEEAF600329BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CECD7E1DEEEAFC00329BAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44CECD641DEEEAF600329BAC = {
+			isa = PBXGroup;
+			children = (
+				44CECD6F1DEEEAF600329BAC /* OverLay */,
+				44CECD841DEEEAFC00329BAC /* OverLayTests */,
+				44CECD6E1DEEEAF600329BAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44CECD6E1DEEEAF600329BAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44CECD6D1DEEEAF600329BAC /* OverLay.app */,
+				44CECD811DEEEAFC00329BAC /* OverLayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44CECD6F1DEEEAF600329BAC /* OverLay */ = {
+			isa = PBXGroup;
+			children = (
+				44CECD741DEEEAF900329BAC /* Main.storyboard */,
+				44CECD701DEEEAF800329BAC /* AppDelegate.swift */,
+				44CECD901DEEECFB00329BAC /* OLEditorViewController.swift */,
+				44CECD921DEEFA3A00329BAC /* OverLay.swift */,
+				44CECD771DEEEAFA00329BAC /* Assets.xcassets */,
+				44CECD791DEEEAFA00329BAC /* LaunchScreen.storyboard */,
+				44CECD7C1DEEEAFA00329BAC /* Info.plist */,
+			);
+			path = OverLay;
+			sourceTree = "<group>";
+		};
+		44CECD841DEEEAFC00329BAC /* OverLayTests */ = {
+			isa = PBXGroup;
+			children = (
+				44CECD851DEEEAFD00329BAC /* OverLayTests.swift */,
+				44CECD871DEEEAFD00329BAC /* Info.plist */,
+			);
+			path = OverLayTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44CECD6C1DEEEAF600329BAC /* OverLay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CECD8A1DEEEAFD00329BAC /* Build configuration list for PBXNativeTarget "OverLay" */;
+			buildPhases = (
+				44CECD691DEEEAF600329BAC /* Sources */,
+				44CECD6A1DEEEAF600329BAC /* Frameworks */,
+				44CECD6B1DEEEAF600329BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OverLay;
+			productName = OverLay;
+			productReference = 44CECD6D1DEEEAF600329BAC /* OverLay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44CECD801DEEEAFC00329BAC /* OverLayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CECD8D1DEEEAFD00329BAC /* Build configuration list for PBXNativeTarget "OverLayTests" */;
+			buildPhases = (
+				44CECD7D1DEEEAFC00329BAC /* Sources */,
+				44CECD7E1DEEEAFC00329BAC /* Frameworks */,
+				44CECD7F1DEEEAFC00329BAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44CECD831DEEEAFC00329BAC /* PBXTargetDependency */,
+			);
+			name = OverLayTests;
+			productName = OverLayTests;
+			productReference = 44CECD811DEEEAFC00329BAC /* OverLayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44CECD651DEEEAF600329BAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sneha gindi";
+				TargetAttributes = {
+					44CECD6C1DEEEAF600329BAC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					44CECD801DEEEAFC00329BAC = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44CECD6C1DEEEAF600329BAC;
+					};
+				};
+			};
+			buildConfigurationList = 44CECD681DEEEAF600329BAC /* Build configuration list for PBXProject "OverLay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44CECD641DEEEAF600329BAC;
+			productRefGroup = 44CECD6E1DEEEAF600329BAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44CECD6C1DEEEAF600329BAC /* OverLay */,
+				44CECD801DEEEAFC00329BAC /* OverLayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44CECD6B1DEEEAF600329BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CECD7B1DEEEAFA00329BAC /* LaunchScreen.storyboard in Resources */,
+				44CECD781DEEEAFA00329BAC /* Assets.xcassets in Resources */,
+				44CECD761DEEEAF900329BAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CECD7F1DEEEAFC00329BAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44CECD691DEEEAF600329BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CECD911DEEECFB00329BAC /* OLEditorViewController.swift in Sources */,
+				44CECD931DEEFA3A00329BAC /* OverLay.swift in Sources */,
+				44CECD711DEEEAF800329BAC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44CECD7D1DEEEAFC00329BAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44CECD861DEEEAFD00329BAC /* OverLayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44CECD831DEEEAFC00329BAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44CECD6C1DEEEAF600329BAC /* OverLay */;
+			targetProxy = 44CECD821DEEEAFC00329BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44CECD741DEEEAF900329BAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CECD751DEEEAF900329BAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44CECD791DEEEAFA00329BAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44CECD7A1DEEEAFA00329BAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44CECD881DEEEAFD00329BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44CECD891DEEEAFD00329BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44CECD8B1DEEEAFD00329BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OverLay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sneha-gindi.OverLay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		44CECD8C1DEEEAFD00329BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OverLay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sneha-gindi.OverLay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		44CECD8E1DEEEAFD00329BAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OverLayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sneha-gindi.OverLayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverLay.app/OverLay";
+			};
+			name = Debug;
+		};
+		44CECD8F1DEEEAFD00329BAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OverLayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sneha-gindi.OverLayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OverLay.app/OverLay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CECD681DEEEAF600329BAC /* Build configuration list for PBXProject "OverLay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CECD881DEEEAFD00329BAC /* Debug */,
+				44CECD891DEEEAFD00329BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44CECD8A1DEEEAFD00329BAC /* Build configuration list for PBXNativeTarget "OverLay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CECD8B1DEEEAFD00329BAC /* Debug */,
+				44CECD8C1DEEEAFD00329BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		44CECD8D1DEEEAFD00329BAC /* Build configuration list for PBXNativeTarget "OverLayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44CECD8E1DEEEAFD00329BAC /* Debug */,
+				44CECD8F1DEEEAFD00329BAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44CECD651DEEEAF600329BAC /* Project object */;
+}
